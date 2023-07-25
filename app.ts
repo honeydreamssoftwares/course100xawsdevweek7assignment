@@ -13,7 +13,6 @@ app.use(express.json());
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
-app.use('/', express.static('client'))
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
 
